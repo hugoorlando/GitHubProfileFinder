@@ -54,6 +54,22 @@ html, body {
    
 }
 
+.section-3 {
+    background-color: #000000;
+    display: flex;
+    /*nos ayuda a ubicar nuestros componentes*/
+    align-items: center;
+    justify-content: center;
+    /*es una propiedad del contenedor flex y controla el alineamiento de los elementos de una caja flexible */
+    flex-direction: column;
+    /*La dirección en la que se apilas las líneas de texto */
+    padding: 0px 30px;
+    min-height: calc(100vh - 600px); 
+    color: #ffffff;
+   
+}
+
+
 .input {
     background-color: #ffffff1a;
     border: 2px solid #238636; /* #238636 - #d41a81 */
